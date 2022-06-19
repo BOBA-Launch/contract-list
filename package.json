@@ -9,7 +9,8 @@
     "test:logs": "hardhat test --logs",
     "deploy:default": "hardhat deploy",
     "deploy:bobaTestnet": "hardhat deploy --network bobaTestnet",
-    "verify:polygon": "hardhat --network polygon etherscan-verify"
+    "deploy:goerli": "hardhat deploy --network goerli",
+    "verify:goerli": "hardhat --network goerli etherscan-verify"
   },
   "dependencies": {
     "@openzeppelin/contracts": "^4.3.2"
