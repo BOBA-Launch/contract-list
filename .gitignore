@@ -10,6 +10,8 @@ abi
 artifacts
 cache
 typechain
+# sourcify
+failing_metadata
 
 # Graph protocol
 generated

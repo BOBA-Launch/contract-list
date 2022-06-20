@@ -9,6 +9,7 @@
     "test:logs": "hardhat test --logs",
     "deploy:default": "hardhat deploy",
     "deploy:bobaTestnet": "hardhat deploy --network bobaTestnet",
+    "verify:bobaTestnet": "hardhat --network bobaTestnet sourcify",
     "deploy:goerli": "hardhat deploy --network goerli",
     "verify:goerli": "hardhat --network goerli etherscan-verify"
   },
